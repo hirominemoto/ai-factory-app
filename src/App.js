@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
 import { 
   User, Utensils, Globe, Database, CheckCircle, AlertTriangle, 
-  ChefHat, Cpu, ShoppingBag, MessageSquare, 
-  Zap, RotateCw, Search, AlertCircle, Settings, 
-  Wind, Plus, Layers, Star
+  ChefHat, Cpu, ShoppingBag,
+  AlertCircle, Settings, 
+  Wind, Plus, Layers
 } from 'lucide-react';
 
 const App = () => {
