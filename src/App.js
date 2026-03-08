@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import { 
   User, Utensils, Globe, Database, CheckCircle, AlertTriangle, 
   ChefHat, Cpu, ShoppingBag,
