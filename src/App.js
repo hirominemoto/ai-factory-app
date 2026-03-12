@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { 
   User, Utensils, Globe, Database, CheckCircle, AlertTriangle, 
-  ChefHat, Cpu, ShoppingBag, MessageSquare, 
-  Zap, RotateCw, Search, AlertCircle, Settings, 
+  ChefHat, Cpu, ShoppingBag,
+  AlertCircle, Settings, 
   Wind, Plus, Layers, Star, ArrowRight, Sliders
 } from 'lucide-react';
 
