@@ -26,7 +26,7 @@ const Node = ({ title, content, icon: Icon, type = 'normal', width = 'w-[380px]'
         {Icon && <Icon size={32} className={type === 'normal' || type === 'user' ? 'text-[#E67E22]' : ''} strokeWidth={3} />}
         <span className="flex-1 leading-none">{title}</span>
       </div>
-      <div className="p-10 text-[24px] font-black leading-snug min-h-[160px] flex items-center justify-center text-center break-words">
+      <div className="p-10 text-[25px] font-black leading-snug min-h-[160px] flex items-center justify-center text-center break-words">
         {content}
       </div>
     </div>
