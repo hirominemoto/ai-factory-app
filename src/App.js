@@ -20,13 +20,13 @@ const Node = ({ title, content, icon: Icon, type = 'normal', width = 'w-[380px]'
 
   return (
     <div className={`relative flex flex-col ${width} flex-shrink-0 rounded-[48px] border-[6px] transition-all hover:scale-105 ${themes[type]}`}>
-      <div className={`px-8 py-6 text-[27px] font-black uppercase tracking-tight flex items-center gap-4 rounded-t-[42px] border-b-[6px] border-inherit ${
+      <div className={`px-8 py-6 text-[28px] font-black uppercase tracking-tight flex items-center gap-4 rounded-t-[42px] border-b-[6px] border-inherit ${
         type === 'header' || type === 'error' ? 'bg-black/10' : 'bg-[#FAF9F6]'
       }`}>
         {Icon && <Icon size={32} className={type === 'normal' || type === 'user' ? 'text-[#E67E22]' : ''} strokeWidth={3} />}
         <span className="flex-1 leading-none">{title}</span>
       </div>
-      <div className="p-10 text-[23px] font-black leading-snug min-h-[160px] flex items-center justify-center text-center break-words">
+      <div className="p-10 text-[24px] font-black leading-snug min-h-[160px] flex items-center justify-center text-center break-words">
         {content}
       </div>
     </div>
